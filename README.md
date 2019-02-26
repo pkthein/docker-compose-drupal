@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 *// installing docker-compose //*
 ** did not need to install docker for aws c9 **
-sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose --version
+$sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
+$sudo chmod +x /usr/local/bin/docker-compose
+$docker-compose --version
 
 ** installing c9 **
-npm install -g c9
-=======
-# docker-compose-drupal
-trying to run docker-compose-drupal
->>>>>>> b62bc8d98346babc9ea58140d9657d4ad26c5bca
+$npm install -g c9
